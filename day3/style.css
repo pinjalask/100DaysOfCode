@@ -1,0 +1,21 @@
+html {
+  background-color: #f4f6ff;
+}
+body {
+  width: 50%;
+  line-height: 140%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img {
+  width: 400px;
+}
+.h1-heading,
+.h3-heading {
+  color: #10375c;
+}
+.h2-heading {
+  color: #eb8317;
+}
+.recipes a {
+  text-decoration: none;
+}
