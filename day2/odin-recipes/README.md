@@ -6,8 +6,8 @@ Step-1: Initial structure
 Step-2: Recipe page
 
 1. Created a new directory within the odin-recipes directory and named it as recipes.
-2. Created a new HTML file within the recipes directory and named it after the recipe it contains. For example lasagna.html.
-3. Included an heading with the recipe’s name as its content.
+2. Created a new HTML file within the recipes directory and named it after the recipe it contains. Example lasagna.html.
+3. Included an h1 heading with the recipe’s name as its content.
 4. Back in the index.html file in odin-recipes directory, added a link to the recipe page which I have created using a link tag.
 
 Step-3: Recipe page content
