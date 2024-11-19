@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>String Manipulation</title>
+  </head>
+  <body>
+    <script>
+      let a = prompt("Enter your strings");
+
+      function captalize() {
+        if (a == 0) return "Please enter a string.";
+        return a[0].toUpperCase() + a.slice(1).toLowerCase();
+      }
+
+      console.log(captalize());
+    </script>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <script>
+      let a = +prompt("a=");
+      let b = +prompt("b=");
+      let operator = prompt(
+        "Enter the operator you need to perform",
+        "+, -, *, /"
+      );
+
+      function cal() {
+        switch (operator) {
+          case "+":
+            return a + b;
+            break;
+
+          case "-":
+            return a - b;
+            break;
+
+          case "*":
+            return a * b;
+            break;
+
+          case "/":
+            return a / b;
+            break;
+          default:
+            "Error: Invalid operator";
+        }
+      }
+
+      alert(cal());
+    </script>
+  </body>
+</html>
