@@ -1,6 +1,6 @@
 # Rock, Paper, Scissors Game - JavaScript Implementation
 
-This project is a Rock, Paper, Scissors game implemented in JavaScript using functions and if-else statements. The program features a best-of-five game-play mode, allowing the player to compete against the computer. This is a updated project of Rock, Paper, Scissors Game from day 17 of my 100DaysOfCode challenge. I've included loop for playing multiple rounds and keeping the track of the score for deciding the final winner.
+This project is a Rock, Paper, Scissors game implemented in JavaScript using functions and if-else statements. The program features a best-of-five game-play mode, allowing the player to compete against the computer. This is a updated project of Rock, Paper, Scissors Game from day17 of my 100DaysOfCode challenge which can be seen in my git repository. I've included loop for playing multiple rounds and keeping the track of the score for deciding the final winner.
 
 ## Overview
 
