@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Guitar Symphony - Unleash Your Music</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="header" class="header-fixed">
+      <img id="header-img" src="./icons/logo.png" />
+      <nav id="nav-bar">
+        <a class="nav-link" href="#features">Features</a>
+        <a class="nav-link" href="#how-to-choose">How to choose</a>
+        <a class="nav-link" href="#pricing">Pricing</a>
+      </nav>
+    </header>
+
+    <main id="main-doc">
+      <form
+        id="form"
+        action="https://www.freecodecamp.com/email-submit"
+        method="get"
+      >
+        <label for="email" id="email-label">Handcrafted masterpieces</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+        />
+        <input type="submit" id="submit" />
+      </form>
+
+      <section id="features">
+        <div class="brand-features">
+          <img src="./icons/material.png" />
+          <div class="brand-info">
+            <div id="sub-heading">Premium Materials</div>
+            <p id="description">
+              Crafted with the finest woods and components for exceptional sound
+              and durability.
+            </p>
+          </div>
+        </div>
+
+        <div class="brand-features">
+          <img src="./icons/fast-delivery.png" />
+          <div class="brand-info">
+            <div id="sub-heading">Fast & Free Shipping</div>
+            <p id="description">
+              Get your guitar delivered quickly with no extra cost.
+            </p>
+          </div>
+        </div>
+
+        <div class="brand-features">
+          <img src="./icons/quality.png" />
+          <div class="brand-info">
+            <div id="sub-heading">Quality Assurance:</div>
+            <p id="description">
+              Each guitar is inspected to ensure the highest standard of
+              craftsmanship.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="how-to-choose">
+        <video id="video" controls>
+          <source src="" />
+        </video>
+      </section>
+
+      <section id="pricing">
+        <div class="product">
+          <div class="product-name">Melody Guitar</div>
+          <div class="product-price">$199</div>
+          <div class="product-info">
+            <div>Durable</div>
+            <div>Lightweight</div>
+            <div>Perfectly tuned for new learners</div>
+          </div>
+          <button class="select-button">SELECT</button>
+        </div>
+
+        <div class="product">
+          <div class="product-name">Harmony Guitar</div>
+          <div class="product-price">$499</div>
+          <div class="product-info">
+            <div>Versatile tones</div>
+            <div>Sleek design</div>
+            <div>Premium craftsmanship</div>
+          </div>
+          <button class="select-button">SELECT</button>
+        </div>
+
+        <div class="product">
+          <div class="product-name">Virtuoso Guitar</div>
+          <div class="product-price">$999</div>
+          <div class="product-info">
+            <div>Superior sound quality</div>
+            <div>Advanced features</div>
+            <div>Ultimate reliability</div>
+          </div>
+          <button class="select-button">SELECT</button>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer-doc">
+      <div id="nav-footer">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Contact</a>
+      </div>
+      <div id="copyright">
+        &copy; 2024, Guitar Symphony - Unleash Your Music
+      </div>
+    </footer>
+  </body>
+</html>

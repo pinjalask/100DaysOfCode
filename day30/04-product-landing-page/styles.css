@@ -1,0 +1,263 @@
+html,
+body {
+  margin: 0;
+  font-family: Roboto, Arial;
+  background-color: #fff6e9;
+}
+
+.header-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+#header {
+  background-color: #fff6e9;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 8px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#header-img {
+  height: 60px;
+  margin-left: 40px;
+}
+
+.nav-link {
+  color: #ff7f3e;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: white;
+  background-color: #4335a7;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+
+#main-doc {
+  margin-top: 140px;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#email-label {
+  font-weight: 500;
+  font-size: 2.1em;
+  margin-bottom: 15px;
+}
+
+#email {
+  padding: 10px;
+  width: 250px;
+  margin-bottom: 15px;
+}
+
+#submit {
+  background-color: #80c4e9;
+  color: black;
+  border: none;
+  font-size: 1.1em;
+  padding: 8px 16px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: #ff7f3e;
+  color: white;
+  transition: 0.2s;
+}
+
+#features {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.brand-features {
+  width: 800px;
+  max-width: 100%;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.brand-features img {
+  height: 70px;
+  float: left;
+  margin-right: 75px;
+}
+
+#sub-heading {
+  font-size: 1.3em;
+  font-weight: 500;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+#how-to-choose {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+#video {
+  width: 560px;
+  height: 315px;
+}
+
+#pricing {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.product {
+  border: 1px solid;
+  width: 320px;
+  height: auto;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-name {
+  font-size: 1.2em;
+  font-weight: 500;
+  background-color: #4335a7;
+  color: #80c4e9;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.product-price {
+  font-size: 1.3em;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.product-info {
+  list-style: none;
+  text-align: center;
+}
+
+.product-info div {
+  margin-bottom: 13px;
+}
+
+.select-button {
+  background-color: #80c4e9;
+  color: black;
+  border: none;
+  font-size: 1.1em;
+  padding: 8px 16px;
+  border-radius: 2px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.select-button:hover {
+  background-color: #ff7f3e;
+  color: white;
+  transition: 0.2s;
+}
+
+#footer-doc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff7f3e;
+  padding-bottom: 20px;
+}
+#nav-footer {
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+#nav-footer a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+#copyright {
+  color: white;
+}
+
+@media (max-width: 800px) {
+  #pricing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .product {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 720px) {
+  #header {
+    flex-direction: column;
+    height: auto;
+  }
+
+  #nav-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .nav-link {
+    padding: 2px 5px;
+  }
+
+  .nav-link:hover {
+    background-color: transparent;
+    color: #ff7f3e;
+  }
+
+  #main-doc {
+    margin-top: 170px;
+  }
+
+  .brand-features img {
+    margin-right: 20px;
+    margin-left: 10px;
+  }
+}
