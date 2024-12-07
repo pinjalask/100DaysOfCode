@@ -1,0 +1,101 @@
+/* General */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #efefef;
+  color: #000000;
+}
+
+#container {
+  width: 700px;
+  margin: 20px auto;
+  border: 2px solid rgb(43, 43, 43);
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+#title {
+  color: rgb(82, 82, 246);
+}
+#title,
+#description {
+  text-align: center;
+}
+
+#user-info label {
+  display: block;
+}
+
+#name-label,
+#email-label,
+#number-label {
+  font-size: 1.3em;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+  width: 600px;
+  font-size: 1.1em;
+  padding: 10px;
+  margin: 5px 30px;
+}
+
+#operating-system,
+#learning-code,
+#programming-languages,
+#additional-comments {
+  width: 600px;
+
+  margin: 30px;
+}
+
+#operating-system p,
+#learning-code p,
+#programming-languages p,
+#additional-comments label {
+  font-size: 1.2em;
+  margin-top: 0;
+}
+
+#operating-system div,
+#programming-languages div {
+  display: block;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+#dropdown {
+  font-size: 1.1em;
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+
+#additional-comments textarea {
+  display: block;
+  width: 500px;
+  height: 100px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+#submit-reset-buttons {
+  width: 700px;
+  margin-bottom: 30px;
+  margin-left: 30%;
+}
+
+#reset,
+#submit {
+  font-size: 1.2em;
+  background-color: rgb(82, 82, 246);
+  color: white;
+  border: none;
+  padding: 10px 40px;
+  border-radius: 5px;
+  margin-right: 10px;
+}

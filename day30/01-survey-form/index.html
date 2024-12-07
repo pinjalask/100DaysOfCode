@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <h1 id="title">Learning Code Survey Form</h1>
+      <p id="description">
+        This form is reagrding how did you learning coding and the languages you
+        know.
+      </p>
+      <form id="survey-form">
+        <div id="user-info">
+          <label for="name" id="name-label">Name</label>
+          <input type="text" id="name" placeholder="Enter your name" required />
+
+          <label for="email" id="email-label">Email</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="Enter you email"
+            required
+          />
+
+          <label for="number" id="number-label"
+            >Age<span id="optional">(optional)</span></label
+          >
+          <input type="number" id="number" min="10" max="60" placeholder="10" />
+        </div>
+
+        <div id="operating-system">
+          <p>Which Operating System do you use?</p>
+          <div>
+            <input type="radio" id="windows" value="windows" name="os" />
+            <label for="windows">Windows</label>
+          </div>
+
+          <div>
+            <input type="radio" id="macos" value="windows" name="os" />
+            <label for="macos">macOS</label>
+          </div>
+
+          <div>
+            <input type="radio" id="linux" value="windows" name="os" />
+            <label for="linux">Linux</label>
+          </div>
+        </div>
+
+        <div id="learning-code">
+          <p>Where did you learn to code?</p>
+          <select name="question" id="dropdown">
+            <option value="freecodecamp">FreeCodeCamp</option>
+            <option value="theodinproject">The Odin Project</option>
+            <option value="youtube">YouTube</option>
+            <option value="openlearning">Open learning</option>
+            <option value="selectoption" selected>Select your option</option>
+          </select>
+        </div>
+
+        <div id="programming-languages">
+          <p>Languages and Frameworks you know (Check all that apply)</p>
+          <div>
+            <input type="checkbox" id="c" value="c" />
+            <label for="c">C</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="c++" value="c++" />
+            <label for="c">C++</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="java" value="java" />
+            <label for="c++">Java</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="python" value="python" />
+            <label for="python">Python</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="javascript" value="javascript" />
+            <label for="javascript">JavaScript</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="react" value="react" />
+            <label for="react">React</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="angular" value="angular" />
+            <label for="angular">Angular</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="django" value="django" />
+            <label for="django">Django</label>
+          </div>
+        </div>
+
+        <div id="additional-comments">
+          <label for="comments">Additional comments</label>
+          <textarea
+            name="comments"
+            id="comments"
+            rows="4"
+            cols="40"
+            placeholder="Enter your comments here..."
+          ></textarea>
+        </div>
+
+        <div id="submit-reset-buttons">
+          <button id="reset" type="reset">Reset</button>
+          <button id="submit" type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
