@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Python Technical Documentation</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Python Technical Documentation</header>
+      <ul>
+        <li><a href="#Introduction" class="nav-link">Introduction</a></li>
+        <li><a href="#Installation" class="nav-link">Installation</a></li>
+        <li><a href="#Basic_Syntax" class="nav-link">Basic Syntax</a></li>
+        <li><a href="#Control_Flow" class="nav-link">Control Flow</a></li>
+        <li><a href="#Functions" class="nav-link">Functions</a></li>
+        <li><a href="#Modules" class="nav-link">Modules</a></li>
+        <li>
+          <a href="#File_Handling" class="nav-link">File Handling</a>
+        </li>
+        <li><a href="#Conclusion" class="nav-link">Conclusion</a></li>
+      </ul>
+    </nav>
+
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <p>
+          Python is a high-level, interpreted programming language known for its
+          simplicity and versatility. Developed by Guido van Rossum and first
+          released in 1991, Python supports multiple programming paradigms,
+          including procedural, object-oriented, and functional programming. It
+          is widely used for web development, data analysis, artificial
+          intelligence, and more.
+        </p>
+      </section>
+
+      <section class="main-section" id="Installation">
+        <header>Installation</header>
+        <ol>
+          <li>
+            <p id="list-heading">Download Python:</p>
+            <ul>
+              <li>Visit python.org.</li>
+              <li>Download the latest version for your operating system.</li>
+            </ul>
+          </li>
+          <li>
+            <p id="list-heading">Install Python:</p>
+            <ul>
+              <li>
+                Run the installer and ensure you check the "Add Python to PATH"
+                option.
+              </li>
+              <li>
+                Follow the setup instructions to complete the installation.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <p id="list-heading">Verify Installation:</p>
+            <ul>
+              <li>Open a terminal or command prompt and type:</li>
+              <code id="code">python --version</code>
+            </ul>
+          </li>
+        </ol>
+      </section>
+
+      <section class="main-section" id="Basic_Syntax">
+        <header>Basic Syntax</header>
+        <div id="subheading">Printing Output</div>
+        <p>
+          To display output on the screen, use the
+          <code id="inline-code"> print()</code> function:
+        </p>
+        <code id="code">print("Hello, World!")</code>
+
+        <div id="subheading">Variables</div>
+        <p>
+          Python allows dynamic typing. You can assign values to variables
+          without declaring their types:
+        </p>
+        <code id="code">
+          x = 5 <br />
+          name = "Python"
+        </code>
+
+        <div id="subheading">Data Types</div>
+        <p>Python includes several built-in data types:</p>
+        <ul>
+          <li>
+            <span id="inline-heading">Numbers:</span
+            ><code id="inline-code"> int</code>,
+            <code id="inline-code"> float</code>
+          </li>
+          <li>
+            <span id="inline-heading">Strings:</span>Enclosed in single or
+            double quotes (<code id="inline-code">"Hello"</code> or
+            <code id="inline-code">'World'</code>)
+          </li>
+          <li>
+            <span id="inline-heading">Lists:</span>Ordered, mutable collections
+            (<code id="inline-code">[1, 2, 3]</code>)
+          </li>
+          <li>
+            <span id="inline-heading">Dictionaries</span>Key-value pairs (<code
+              id="inline-code"
+              >{"key": "value"}</code
+            >)
+          </li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="Control_Flow">
+        <header>Control Flow</header>
+        <div id="subheading">Conditional Statements</div>
+        <p>
+          Conditional statements allow you to execute code based on conditions:
+        </p>
+        <code id="code">
+          if x > 0: <br />
+          &nbsp;&nbsp;print("Positive") <br />
+          elif x == 0: <br />
+          &nbsp;&nbsp;print("Zero") <br />
+          else: &nbsp;&nbsp;print("Negative")
+        </code>
+
+        <div id="subheading">Loops</div>
+        <div id="sub-subheading">For Loop</div>
+        <p>
+          Use <code id="inline-code">for</code> loops to iterate over a
+          sequence:
+        </p>
+        <code id="code"
+          >for i in range(5): <br />
+          &nbsp;&nbsp;print(i)</code
+        >
+
+        <div id="sub-subheading">While Loop</div>
+        <p>
+          Use <code id="inline-code">while</code> loops to execute a block of
+          code as long as a condition is true:
+        </p>
+        <code id="code"
+          >while x > 0: <br />
+          &nbsp;&nbsp;print(x) <br />
+          &nbsp;&nbsp;x -= 1</code
+        >
+      </section>
+
+      <section class="main-section" id="Functions">
+        <header>Functions</header>
+        <div id="subheading">Defining a Function</div>
+        <p>To read from a file:</p>
+        <code id="code"
+          >def greet(name): <br />
+          &nbsp;&nbsp; return f"Hello, {name}!"</code
+        >
+
+        <div id="subheading">Calling a Function</div>
+        <p>Invoke the function by passing required arguments:</p>
+        <code id="code">print(greet("World"))</code>
+      </section>
+
+      <section class="main-section" id="Modules">
+        <header>Modules</header>
+        <div id="subheading">Importing Modules</div>
+        <p>Modules allow you to use pre-written code:</p>
+        <code id="code"
+          >import math <br />
+          print(math.sqrt(16))</code
+        >
+
+        <div id="subheading">Creating a Module</div>
+        <p>
+          Save the following code in a file named
+          <code id="inline-code">my_module.py:</code>
+        </p>
+        <code id="code"
+          >def add(a, b): <br />
+          &nbsp;&nbsp;return a + b</code
+        >
+        <p>Import and use it in another script:</p>
+        <code id="code"
+          >from my_module import add <br />
+          print(add(3, 5))</code
+        >
+      </section>
+
+      <section class="main-section" id="File_Handling">
+        <header>File Handling</header>
+        <div id="subheading">Reading a File</div>
+        <p>To read from a file:</p>
+        <code id="code"
+          >with open("file.txt", "r") as file: <br />
+          &nbsp;&nbsp; content = file.read() <br />
+          &nbsp;&nbsp; print(content) <br
+        /></code>
+
+        <div id="subheading">Writing to a File</div>
+        <p>To write data to a file:</p>
+        <code id="code"
+          >with open("file.txt", "w") as file: <br />
+          &nbsp;&nbsp; file.write("Hello, Python!")</code
+        >
+      </section>
+
+      <section class="main-section" id="Conclusion">
+        <header>Conclusion</header>
+        <p>
+          Python's beginner-friendly syntax and vast ecosystem make it one of
+          the most popular programming languages. Start exploring its basic
+          features, and as you grow, delve into advanced libraries and
+          frameworks to unlock its full potential!
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
