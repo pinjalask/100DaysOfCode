@@ -1,0 +1,104 @@
+/* Global Styles */
+body {
+  background-color: #8b5dff;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Header Styles */
+h1 {
+  color: white;
+  font-weight: 500;
+  font-size: 3em;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.4);
+  margin-bottom: 20px;
+}
+
+/* Container Styles */
+.pw-container {
+  background-color: #6a42c2;
+  color: white;
+  padding: 30px;
+  width: 400px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+/* Top Section Styles */
+.pw-top {
+  background-color: #563a9c;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#display-pw {
+  padding: 10px;
+  background-color: #563a9c;
+  border: none;
+  width: 100%;
+  color: white;
+  font-size: 1.2em;
+  border-radius: 2px;
+}
+
+/* Copy Button Styles */
+#copy {
+  background-color: #100036;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 2px;
+  font-size: 1.2em;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#copy:hover {
+  background-color: #0d0026;
+}
+
+/* Bottom Section Styles */
+.pw-bottom {
+  display: flex;
+  flex-direction: column;
+}
+
+.char {
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.char label {
+  flex: 1;
+  margin-right: 10px;
+}
+
+/* Generate Button Styles */
+.generate {
+  width: 100%;
+  background-color: #fff7d1;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1em;
+  font-weight: 500;
+  padding: 8px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+}
+
+.generate:hover {
+  background-color: #ffe58f;
+}
